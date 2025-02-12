@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio">
+    <meta name="keywords" content="Portfolio, VideoEditing, DavinciResolve, ColorGrading">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Suleman Nouman</title>
+    
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Section Begin -->
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="header__logo">
+                        <a href="./index.html"><img src="img/icons/home-agreement.png" alt="" style="width: 40px; height: 40px;"></a>
+                    </div>
+                </div>
+                <div class="col-lg-10">
+                    <!-- Social Media and Navigation (kept dashed-out as per your request) 
+                    <div class="header__nav__option">
+                        <nav class="header__nav__menu mobile-menu">
+                            <ul>
+                                <li class="active"><a href="./index.html">Home</a></li>
+                                <li><a href="./about.html">About</a></li>
+                                <li><a href="./portfolio.html">Portfolio</a></li>
+                                <li><a href="./services.html">Services</a></li>
+                                <li><a href="#">Pages</a>
+                                    <ul class="dropdown">
+                                        <li><a href="./about.html">About</a></li>
+                                        <li><a href="./portfolio.html">Portfolio</a></li>
+                                        <li><a href="./blog.html">Blog</a></li>
+                                        <li><a href="./blog-details.html">Blog Details</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="./contact.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                        <div class="header__nav__social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-youtube-play"></i></a>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <div id="mobile-menu-wrap"></div>
+        </div>
+    
+        <!-- Contact Me Button Positioned at the Top Right -->
+        <a href="./contact.html" class="primary-contact" id="contact-header">Contact Me</a>
+        
+        </a>
+    </header>
+    
+    <!-- Add this CSS to position the "Contact Me" button -->
+
+<style>
+.primary-contact {
+    display: inline-block;
+    font-size: 15px;
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    padding: 14px 32px 12px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: absolute; /* Position relative to the parent container */
+    top: 50%;           /* Center vertically */
+    transform: translateY(-50%); /* Adjust to exact center */
+    right: 90px;        /* Default distance from the right side for larger screens */
+    z-index: 1;         /* Keeps it above other elements */
+}
+
+/* For screens smaller than 768px (common phone width) */
+@media screen and (max-width: 768px) {
+    .primary-contact {
+        right: 20px; /* Adjust distance from right for smaller screens */
+        font-size: 13px; /* Optionally adjust font size for smaller screens */
+        padding: 12px 28px 10px; /* Adjust padding if needed */
+    }
+}
+
+/* For screens smaller than 480px (extra small devices) */
+@media screen and (max-width: 480px) {
+    .primary-contact {
+        right: 10px; /* Further adjust for very small screens */
+        font-size: 12px; /* Further reduce font size */
+    }
+}
+
+
+
+
+.primary-contact:hover:before {
+    height: 100%;
+    width: 100%;
+}
+
+.primary-contact:hover:after {
+    height: 100%;
+    width: 100%;
+}
+
+.primary-contact:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 30px;
+    width: 30px;
+    border-left: 2px solid #00bfe7;
+    border-top: 2px solid #00bfe7;
+    content: "";
+    z-index: -1;
+    transition: all, 0.7s;
+}
+
+.primary-contact:after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 30px;
+    width: 30px;
+    border-right: 2px solid #00bfe7;
+    border-bottom: 2px solid #00bfe7;
+    content: "";
+    z-index: -1;
+    transition: all, 0.7s;
+}
+</style>
+
+    <!-- Header End -->
+
+<!-- Hero Section Begin -->
+<section class="hero">
+    <div class="hero__item" style="background-image: url('img/hero/hero-1.jpg');">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="hero__text">
+                        <span>Portfolio</span>
+                        <h2>Suleman Nouman</h2>
+                        <!-- Remove href, just trigger smooth scroll with JavaScript -->
+                        <a href="javascript:void(0);" class="primary-btn" id="scroll-button-1">See More About Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Hero Section End -->
+
+<!-- Services Section Begin -->
+<section class="services spad" id="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="services__title">
+                    <div class="section-title">
+                        <span>My services</span>
+                        <h2>What I Offer?</h2>
+                    </div>
+                    <p>Whether you’re halfway through the editing process, or you haven’t even started, my
+                        post-production services can put the finishing touches.</p>
+                    <!-- Just a click event -->
+                    <a href="javascript:void(0);" class="primary-btn" id="scroll-button-2">See for yourself</a>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="services__item">
+                            <div class="services__item__icon">
+                                <img src="img/icons/text-size.png" alt="" style="width: 40px; height: 40px;">
+                            </div>
+                            <h4>Typography</h4>
+                            <p>Bored of Simple Captions? My unique way of Typography makes your videos feel alive and
+                                keeps the audience engaged.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="services__item">
+                            <div class="services__item__icon">
+                                <img src="img/icons/color-palette.png" alt="" style="width: 40px; height: 40px;">
+                            </div>
+                            <h4>Color Grading</h4>
+                            <p>Elevate your visuals with expert color grading that enhances every detail, 
+                                sets the perfect mood, and brings your creative vision to life.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="services__item">
+                            <div class="services__item__icon">
+                                <img src="img/icons/motion-graphic.png" alt="" style="width: 40px; height: 40px;">
+                            </div>
+                            <h4>Motion Graphics</h4>
+                            <p>Tired of the same content flooding your feed? Stand out with unique,
+                                 professionally crafted motion graphics that captivate.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="services__item">
+                            <div class="services__item__icon">
+                                <img src="img/icons/trim.png" alt="" style="width: 40px; height: 40px;">
+                            </div>
+                            <h4>Cleaning Your Videos</h4>
+                            <p>Polish your videos by trimming the excess, cleaning up the clutter, 
+                                and keeping your audience hooked on every engaging moment.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Services Section End -->
+
+<!-- Work Section Begin (Assuming you have this section with the id "work") -->
+<section id="work">
+    <!-- Your work section content here -->
+</section>
+<!-- Work Section End -->
+
+<!-- Smooth Scroll JavaScript -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Smooth scroll for first button (See More About Me)
+        document.getElementById('scroll-button-1').addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent default anchor link behavior
+            const targetSection = document.querySelector('#services');
+            targetSection.scrollIntoView({ behavior: 'smooth' });
+        });
+
+        // Smooth scroll for second button (See for yourself)
+        document.getElementById('scroll-button-2').addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent default anchor link behavior
+            const targetSection = document.querySelector('#work');
+            targetSection.scrollIntoView({ behavior: 'smooth' });
+        });
+    });
+</script>
+
+
+    
+
+<!-- Work Section Begin -->
+<section class="work" id="work">
+    <div class="work__gallery">
+        <div class="grid-sizer"></div>
+        
+        <!-- Video Item 1 -->
+        <div class="work__item wide__item set-bg" data-setbg="img/work/Comparison.jpg">
+            <div class="play-btn" data-video="videos/Comparison.mp4">
+                <i class="fa fa-play"></i>
+            </div>
+            <div class="work__item__hover">
+                <h4>Alchemy Studios</h4>
+                <ul>
+                    <li>@alchemy_studios__</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Video Item 2 -->
+        <div class="work__item large__item set-bg" data-setbg="img/work/2312AddysS1H2.jpg">
+            <div class="play-btn" data-video="videos/2312AddysS1H2.mp4">
+                <i class="fa fa-play"></i>
+            </div>
+        </div>
+        
+        <!-- Video Item 3 -->
+        <div class="work__item small__item set-bg" data-setbg="img/work/2111GodConceptS3H1.jpg">
+            <div class="play-btn" data-video="videos/2111GodConceptS3H1.mp4">
+                <i class="fa fa-play"></i>
+            </div>
+        </div>
+
+        <!-- Video Item 4 -->
+        <div class="work__item small__item set-bg" data-setbg="img/work/RistossAd2Draft4.jpg">
+            <div class="play-btn" data-video="videos/Ad 2 Draft 4.mp4">
+                <i class="fa fa-play"></i>
+            </div>
+        </div>
+
+        <!-- Video Item 5 -->
+        <div class="work__item large__item set-bg" data-setbg="img/work/1211RuhuS2H1.jpg">
+            <div class="play-btn" data-video="videos/1211RuhuS2H1.mp4">
+                <i class="fa fa-play"></i>
+            </div>
+        </div>
+
+        <!-- Video Item 6 -->
+        <div class="work__item wide__item set-bg" data-setbg="img/work/WSW-Vlog.jpg">
+            <div class="play-btn" data-video="videos/WSW-Vlog.mp4">
+                <i class="fa fa-play"></i>
+            </div>
+        </div>
+
+        <!-- Video Item 7 -->
+        <div class="work__item small__item set-bg" data-setbg="img/work/2511HabitsS1H1.jpg">
+            <div class="play-btn" data-video="videos/2511HabitS1H1.mp4">
+                <i class="fa fa-play"></i>
+            </div>
+        </div>
+
+        <!-- Video Item 8 -->
+        <div class="work__item small__item set-bg" data-setbg="img/work/0310SharinganS2.jpg">
+            <div class="play-btn" data-video="videos/0310SharinganS2.mp4">
+                <i class="fa fa-play"></i>
+            </div>
+        </div>
+
+        <!-- Video Item 9 -->
+        <div class="work__item large__item set-bg" data-setbg="img/work/1612OldTrunkS4H2.jpg">
+            <div class="play-btn" data-video="videos/1612OldTrunkS4H2.mp4">
+                <i class="fa fa-play"></i>
+            </div>
+        </div>
+
+        <!-- Video Item 10 -->
+        <div class="work__item small__item set-bg" data-setbg="img/work/1012AddysS5H1.jpg">
+            <div class="play-btn" data-video="videos/1012AddysS5H1.mp4">
+                <i class="fa fa-play"></i>
+            </div>
+        </div>
+
+        <!-- Video Item 11 -->
+        <div class="work__item small__item set-bg" data-setbg="img/work/1411OldTrunkS1H1.jpg">
+            <div class="play-btn" data-video="videos/1411OldTrunkS1H1.mp4">
+                <i class="fa fa-play"></i>
+            </div>
+        </div>
+
+        <!-- Video Item 12 -->
+        <div class="work__item small__item set-bg" data-setbg="img/work/2111GodConceptS2H1.jpg">
+            <div class="play-btn" data-video="videos/2111GodConceptS2H1.mp4">
+                <i class="fa fa-play"></i>
+            </div>
+        </div>
+
+        <!-- Video Item 13 -->
+        <div class="work__item small__item set-bg" data-setbg="img/work/2312AddysS10H1.jpg">
+            <div class="play-btn" data-video="videos/2312AddysS10H1.mp4">
+                <i class="fa fa-play"></i>
+            </div>
+        </div> 
+    </div>
+</section>
+
+<!-- Video Modal -->
+<div class="video-modal">
+    <div class="video-modal-content">
+        <video controls class="video-player">
+            <source src="" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <button class="close-btn">&times;</button>
+    </div>
+</div>
+<!-- Work Section End -->
+
+
+
+<!-- Counter Section Begin -->
+<section class="counter" id="counter-section">
+    <div class="container">
+        <div class="counter__content">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="counter__item">
+                        <div class="counter__item__text">
+                            <img src="img/icons/notepad.png" alt="" style="width: 90px; height: 90px;">
+                            <h2 id="completedProjects" class="counter_num">0</h2>
+                            <p>Completed Projects</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="counter__item second__item">
+                        <div class="counter__item__text">
+                            <img src="img/icons/stats.png" alt="" style="width: 70px; height: 70px;">
+                            <h2 id="audienceCounter" class="counter_num">0</h2>
+                            <p>Audience Reached</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="counter__item third__item">
+                        <div class="counter__item__text">
+                            <img src="img/icons/building.png" alt="" style="width: 70px; height: 70px;">
+                            <h2 id="brandCollabs" class="counter_num">0</h2>
+                            <p>Brand Collabs</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="counter__item four__item">
+                        <div class="counter__item__text">
+                            <img src="img/icons/trimming.png" alt="" style="width: 70px; height: 70px;">
+                            <h2 id="minutesProduced" class="counter_num">0</h2>
+                            <p>Minutes Produced</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Counter Section End -->
+
+
+
+
+    <!-- Team Section Begin -->
+
+    <!-- Team Section End -->
+
+    <!-- Latest Blog Section Begin -->
+    
+    <!-- Latest Blog Section End -->
+
+    <!-- Call To Action Section Begin -->
+    <section class="callto spad set-bg" data-setbg="img/call2action.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="callto__text">
+                        <h2>Turning Visions into Reality,</br> One Frame at a Time.</h2>
+                        <p>Bringing Stories to Life</p>
+                        <a href="./contact.html">Get in touch!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Call To Action Section End -->
+
+    <!-- Footer Section Begin -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="footer__top__logo">
+                            <a href="#"><img src="img/icons/home.png" alt="Home Logo" style="height: 30px;"></a>  <!-- PNG logo as before -->
+                        </div>
+                    </div>                                                         
+                     <div class="col-lg-6 col-md-6">
+                        <!-- <div class="footer__top__social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-youtube-play"></i></a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="footer__option">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="footer__option__item">
+                            <h5>About me</h5>
+                            <p>A BS Physics undergraduate with a passion for editing, combining creativity and precision
+                                 to bring every project to life. </p>
+                            <a href="#" class="read__more">Read more <span class="arrow_right"></span></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-3">
+                        <div class="footer__option__item">
+                            <h5>My Identity</h5>
+                            <ul>
+                                <li><a href="#">Who I am</a></li>
+                                <li><a href="./contact.html">Contact us</a></li>
+                                <li><a href="#services" id="scroll-button-2">Services</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Smooth Scroll -->
+                    <script>
+                        document.getElementById('scroll-button-2').addEventListener('click', function(event) {
+                            event.preventDefault(); // Prevent default anchor link behavior
+                            
+                            const targetSection = document.querySelector('#services');
+                            if (targetSection) {
+                                targetSection.scrollIntoView({ behavior: 'smooth' });
+                            }
+                        });
+                    
+                        // Fallback for smooth scrolling in older browsers using CSS
+                        if (!('scrollBehavior' in document.documentElement.style)) {
+                            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                                anchor.addEventListener('click', function (e) {
+                                    e.preventDefault();
+                                    const targetId = this.getAttribute('href').substring(1);
+                                    const targetElement = document.getElementById(targetId);
+                                    if (targetElement) {
+                                        targetElement.scrollIntoView({ behavior: 'smooth' });
+                                    }
+                                });
+                            });
+                        }
+                    </script>
+                    
+                    <!-- Smooth Scroll CSS Fallback -->
+                    <style>
+                        html {
+                            scroll-behavior: smooth;
+                        }
+                    </style>
+                    
+    
+                    <div class="col-lg-2 col-md-3 col-sm-3">
+                        <div class="footer__option__item">
+                            <h5>Crafted by Me</h5>
+                            <ul>
+                                <li><a href="#work">Feature</a></li>
+                                <li><a href="#work">Latest</a></li>
+                                <li><a href="https://drive.google.com/drive/folders/106rewdIUjDiHVH5G9E6HMFWDEy3HiK5Z?usp=sharing">Browse Archive</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- <div class="col-lg-4 col-md-12">
+                        <div class="footer__option__item">
+                            <h5>Newsletter</h5>
+                            <p>Videoprah is an award-winning, full-service production company specializing.</p>
+                            <form action="#">
+                                <input type="text" placeholder="Email">
+                                <button type="submit"><i class="fa fa-send"></i></button>
+                            </form>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        <p class="footer__copyright__text">Copyright &copy;
+                            <script>
+                                document.write(new Date().getFullYear());
+                            </script>
+                            All rights reserved | This template is made with <i class="fa fa-heart-o"
+                                aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                        </p>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
